@@ -1,16 +1,43 @@
-## Hi there 👋
+```python
+class Rahamat:
+    def __init__(self):
+        self.qualification = ['M.Sc in IT (Data Science)']
+        self.interests = [
+            'Business Analytics',
+            'Machine Learning',
+            'Image Processing',
+            'Bioinformatics',
+            'Health IT',
+            'GIS'
+        ]
+        self.os = 'Fedora Linux'
+        self.languages = [
+            'Python',
+            'SQL',
+            'R'
+        ]
+        self.current_project = 'InsightFlow (Business Analytics Automation Platform)'
+        self.thesis = 'Digital Watermarking using Hybrid Transformation and Chaotic Encryption'
+        self.learning = [
+            'MLOps',
+            'RAG Systems',
+            'Computational Biology'
+        ]
+        self.goals = [
+            'Work on impactful healthcare and business analytics solutions',
+            'Transition into AI-powered analytics',
+            'Contribute to open-source projects'
+        ]
+    def __repr__(self):
+        return " DATA | PYTHON | LINUX "
 
-<!--
-**rahamat-ds/rahamat-ds** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+    def motto(self):
+        return "LET EVERYTHING FALSE DIE BEFORE I DO."
 
-Here are some ideas to get you started:
+me = Rahamat()
+print(me)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+if __name__ == "__main__":
+    print("Welcome to my profile")
+
+```
