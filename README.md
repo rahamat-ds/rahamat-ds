@@ -1,5 +1,9 @@
 ```python
 class Rahamat:
+
+    def __repr__(self):
+        return " DATA | PYTHON | LINUX "
+
     def __init__(self):
         self.qualification = ['M.Sc in IT (Data Science)']
         self.interests = [
@@ -10,7 +14,6 @@ class Rahamat:
             'Health IT',
             'GIS'
         ]
-        self.os = 'Fedora Linux'
         self.languages = [
             'Python',
             'SQL',
@@ -28,16 +31,12 @@ class Rahamat:
             'Transition into AI-powered analytics',
             'Contribute to open-source projects'
         ]
-    def __repr__(self):
-        return " DATA | PYTHON | LINUX "
 
     def motto(self):
         return "LET EVERYTHING FALSE DIE BEFORE I DO."
 
-me = Rahamat()
-print(me)
-
 if __name__ == "__main__":
-    print("Welcome to my profile")
+    print("Welcome to my profile;")
+
 
 ```
