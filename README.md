@@ -16,18 +16,24 @@ class Rahamat:
         }
         self.languages = {
             'Python',
+            'Bash',
             'SQL',
             'R'
         }
-        self.current_project = 'InsightFlow (Business Analytics Automation Platform)'
+        self.current_projects = {
+            'BAAP (Business Analytics Automation Platform)',
+            'MedVis (Medical Image Processing Pipeline)',
+            'GeoSentinel (Research Operating System for Environmental Intelligence)'
+        }
         self.thesis = 'Digital Watermarking using Hybrid Transformation and Chaotic Encryption'
         self.learning = {
             'MLOps',
             'RAG Systems',
+            'Data Engineering',
             'Computational Biology'
         }
         self.goals = {
-            'Work on impactful healthcare and business analytics solutions',
+            'Work on impactful healthcare and busines analytics solutions',
             'Transition into AI-powered analytics',
             'Contribute to open-source projects'
         }
