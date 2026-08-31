@@ -9,7 +9,7 @@
 - Location: West Bengal, India - open to remote collaboration and relocation. 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tech Stack & Environment
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
